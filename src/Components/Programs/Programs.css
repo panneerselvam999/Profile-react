@@ -43,3 +43,16 @@
     opacity: 100;
     padding-top: 0%;
 }
+
+/* ------------------------ Media query ---------------------- */
+
+@media (max-width: 650px) {
+    .programs {
+        flex-direction: column;
+    }
+
+    .program {
+        flex-basis: 100px;
+        margin-bottom: 30px;
+    }
+}
